@@ -68,7 +68,7 @@ If you want to contribute to this list (please do), send me a pull request or co
 
 ####  Type I
 
-A Type I (symbolic Neuro symbolic) system is standard deep learning. This class is included in the taxonomy as the input and output of a neural network can be symbols (such as words in language translation) that are vectorized within the model. Some Type I frameworks include:
+A Type I (symbolic Neuro symbolic) system is standard deep learning. This class is included in the taxonomy as the input and output of a neural network can be symbols (such as words in language translation) that are vectorized within the model. Some Type I architectures include:
 - [QDGAT](https://arxiv.org/abs/2009.07448)
 - [TBox](https://www.researchgate.net/profile/Yu-Gu-24/publication/359972607_Local_ABox_Consistency_Prediction_with_Transparent_TBoxes_Using_Gated_Graph_Neural_Networks/links/62591a8c709c5c2adb7d16f5/Local-ABox-Consistency-Prediction-with-Transparent-TBoxes-Using-Gated-Graph-Neural-Networks.pdf)
 - [Sememes-Based Framework for KG Embeddings](https://link.springer.com/chapter/10.1007/978-3-030-82147-0_34)
@@ -77,6 +77,14 @@ A Type I (symbolic Neuro symbolic) system is standard deep learning. This class 
 - [NTF-IDF](https://www.emerald.com/insight/content/doi/10.1108/IJWIS-11-2020-0067/full/html)
 - [FDLC](https://ieeexplore.ieee.org/document/9333555)
 - [RE-ILP](https://aclanthology.org/R19-1076/)
+- [Hierarchical Graph Transformer](https://ieeexplore.ieee.org/document/8988213)
+- [DialogueCRN](https://arxiv.org/abs/2106.01978)
+- [Hybrid LOINC Mapping](https://aclanthology.org/2021.naloma-1.2.pdf)
+- [The CoRg Project](https://west.uni-koblenz.de/pdf/2e08f404b02ea69db9511b7ba86e3dc6.pdf)
+- [Skip-thought + MaLSTM](https://ieeexplore.ieee.org/document/8995321)
+- [Dependency Tree-LSTM](https://arxiv.org/pdf/2103.03755.pdf)
+- [Abstractive Text Summarization](https://aclanthology.org/2021.cl-4.27.pdf)
+- [NMT+Word2Vec](https://ieeexplore.ieee.org/document/8873551)
 
 
 ### Category 2: Nested 
