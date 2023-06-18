@@ -1,4 +1,5 @@
-# Awesome Neuro-Symbolic AI [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Neuro-Symbolic AI
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)](https://github.com/traincheckai/awesome-neuro-symbolic-ai/pulls) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/traincheckai/awesome-neuro-symbolic-ai?color=yellow)  ![Forks](https://img.shields.io/github/forks/traincheckai/awesome-neuro-symbolic-ai?color=blue&label=Fork)
 
 A curated list of awesome Neuro-Symbolic AI (NSAI or NeSy) frameworks, libraries, software, papers, and videos.
 
