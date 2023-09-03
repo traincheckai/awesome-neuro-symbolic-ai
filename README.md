@@ -13,6 +13,7 @@ If you want to contribute to this list (please do), send me a pull request or co
   * [NSAI in Two Sentences](#nsai-in-two-sentences)
   * [Textbooks](#textbooks)
   * [Overview Articles](#overview-articles)
+  * [Workshops](#workshops)
 - [NSAI Categories](#nsai-categories)
   * [Category 1: Sequential](#category-1--sequential)
     + [Type I](#type-i)
@@ -57,7 +58,10 @@ If you want to contribute to this list (please do), send me a pull request or co
 - [2005 - Dimensions of Neural-symbolic Integration - A Structured Survey](https://arxiv.org/abs/cs/0511042)
 - [2004 - The Integration of Connectionism and First-Order Knowledge Representation and Reasoning as a Challenge for Artificial Intelligence](https://ui.adsabs.harvard.edu/abs/2004cs........8069B/abstract)
 
-
+### Workshops
+- [IBM Neuro-Symbolic AI Summer School [August 8-9, 2022]](https://video.ibm.com/playlist/655332)
+- [IBM Neuro-Symbolic AI Workshop - Jan 2022](https://video.ibm.com/playlist/649216)
+- [NeuroSymbolic Artificial Intelligence Course](https://cedar.buffalo.edu/~srihari/CSE701/index.html)
 
 
 
