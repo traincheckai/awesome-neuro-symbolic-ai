@@ -125,14 +125,245 @@ A Type V (Neuro_Symbolic) system is a tightly-coupled but distributed neuro-symb
 - 2006 - Markov Logic Networks
 
 
-
-
-
 ## Frameworks 
 
 In this section, we aim to provide the most comprehensive NSAI frameworks to date.
 
-### Logical Neural Network
+---
+### [DeepProbLog](https://github.com/ML-KULeuven/deepproblog)
+
+#### Description & Software Languages
+- DeepProbLog is a library that extends ProbLog by integrating Probabilistic Logic Programming with deep learning, using neural predicates. 
+- These neural predicates represent probabilistic facts parameterized by neural networks.
+- The primary programming language is Python.
+
+#### Features
+- The library's key features include a combination of Probabilistic Logic Programming and deep learning, utilizing neural predicates for representing probabilistic facts and providing functionalities for both exact and approximate inference.
+
+#### Docs & Tutorials Quality
+- DeepProbLog's documentation primarily comes from in-code comments and the associated research papers. 
+- The absence of detailed user-friendly tutorials or step-by-step guides might pose a challenge for new or inexperienced users. 
+
+#### Popularity & Community
+- stars: >100 
+
+- forks: >30 
+- contributors: 2 
+
+#### Creation Date
+- June 20, 2021
+
+#### Maintenance
+- Not Active
+
+#### License
+- Apache License 2.0
+
+---
+### [LNN](https://github.com/IBM/LNN)
+
+#### Description & Software Languages
+- Logical Neural Networks (LNNs) provide a framework that merges the learning capabilities of neural networks with the knowledge and reasoning power of symbolic logic. 
+- This creates a robust and interpretable disentangled representation.
+- The primary programming language is Python.
+
+#### Features
+- Meaningful neurons: Each neuron represents a component of a formula in a weighted real-valued logic for interpretable disentangled representation.
+- Omnidirectional inference: The system does not focus on predefined target variables, providing the capacity for logical reasoning, including classical first-order logic theorem proving.
+- End-to-end differentiability: The model is completely differentiable, minimizing a unique loss function that captures logical contradictions, which improves resilience to inconsistent knowledge.
+- Open-world assumption: The system maintains bounds on truth values, allowing for probabilistic semantics and resilience to incomplete knowledge.
+
+#### Docs & Tutorials Quality
+- provides a variety of resources for users to learn about and understand the framework, including academic papers, getting started guides, API overviews, and specific modules on Neuro-Symbolic AI. 
+- This comprehensive documentation could support a wide range of users, from beginners to advanced. 
+
+#### Popularity & Community
+- stars: >100 
+- forks: >300  
+- contributors: 10 
+
+#### Creation Date
+- Nov 21, 2021
+
+#### Maintenance
+- Not Active
+
+#### License
+- Apache License 2.0
+
+---
+
+### [LTN](https://github.com/logictensornetworks/logictensornetworks)
+
+#### Description & Software Languages
+- Logic Tensor Network (LTN) is a neurosymbolic framework that supports querying, learning, and reasoning with rich data and abstract knowledge about the world. 
+- LTN uses Real Logic, a differentiable first-order logic language, to incorporate data and logic. 
+- LTN converts Real Logic formulas into TensorFlow computational graphs.
+- The primary programming language is Python.
+
+#### Features
+- Use of Real Logic: LTN uses a differentiable first-order logic language, enabling complex queries about data, constraints during learning, and logical proofs.
+- Neural-symbolic Integration: Merges deep learning and reasoning, representing many-valued logics.
+- Versatility: LTN can be applied to a range of tasks such as classification, regression, clustering, and link prediction.
+- TensorFlow Integration: Real Logic sentences are represented as TensorFlow computational graphs, promoting efficient computation and compatibility with TensorFlow's ecosystem.
+
+#### Docs & Tutorials Quality
+- LTN provides extensive resources for learning, including a series of tutorials that cover various aspects of LTN (from grounding to learning and reasoning), a variety of examples demonstrating how to use LTN for different tasks, and jupyter notebooks to aid learning.
+- It also includes a comprehensive collection of useful functions and a set of tests, which is beneficial for users seeking to understand the system more deeply or contribute to its development. 
+- Overall, the documentation and tutorials are thorough and well-structured, aiding users from beginners to advanced in understanding and using LTN.
+
+
+#### Popularity & Community
+- stars: >200 
+- forks: >40  
+- contributors: 4  
+
+#### Creation Date
+- June 1, 2018
+
+#### Maintenance
+- Not Active
+
+#### License
+- MIT
+
+---
+### [NLM (Archived)](https://github.com/google/neural-logic-machines)
+
+#### Description & Software Languages
+- The Neural Logic Machine (NLM) is a neural-symbolic architecture that facilitates inductive learning and logical reasoning. - NLMs use tensors to represent logical predicates, which are then grounded as True or False over a fixed set of objects.
+- Rules are implemented as neural operators that can be applied over the premise tensors to generate conclusion tensors.
+- The primary programming language is Python.
+
+#### Features
+- Neural-Symbolic Integration: Combines the flexibility of neural networks with the reasoning capabilities of symbolic logic, facilitating both inductive learning and logic reasoning.
+- Tensor-Based Predicate Representation: Encodes logical predicates as tensors, which are binary-valued (True or False) over a set of objects.
+- Neural Operators: Implements rules as neural operators that transform premise tensors into conclusion tensors.
+- Versatility: This repository contains multiple tasks related to graph-related reasoning (using supervised learning) and decision-making (using reinforcement learning).
+
+#### Docs & Tutorials Quality
+- The repository provides adequate information on installation and usage, including how to train and test the model using the included scripts. However, compared to the previous libraries, the documentation is somewhat less comprehensive, lacking in-depth tutorials or examples for users to follow along. 
+- Nonetheless, for users familiar with neural-symbolic systems and with a solid grounding in PyTorch, the current documentation should suffice. It includes information on various command-line options, prerequisite packages, and references to the original research paper.
+
+#### Popularity & Community
+- stars: >200 
+- forks: >50  
+- contributors: 1 
+
+#### Creation Date
+- May 6, 2019
+
+#### Maintenance
+- Not Active
+
+#### License
+- MIT
+
+
+--- 
+### [NTP](https://github.com/uclmr/ntp) 
+
+#### Description & Software Languages
+- The End-to-End Differentiable Proving project is an implementation of the same-titled paper. 
+- This high-level, highly-experimental research code is designed for reasoning and proving in a differentiable manner. 
+- The system learns logical reasoning tasks by training end-to-end with a Prolog-like syntax.
+- The primary programming language is newLISP.
+
+#### Features
+- The system includes the Neural Theorem Prover (NTP) for integrating symbolic logic into neural networks, end-to-end differentiable proving for logical reasoning, and a data format that follows Prolog syntax for easy representation of facts and rules.
+
+#### Docs & Tutorials Quality
+- The repository contains basic explanations and some instructions on how to run the code, however, it's explicitly marked as not well-documented and no longer maintained.
+- The repository doesn't provide explicit installation instructions. Users may need to explore the code and its dependencies to determine the correct installation process.
+- The main components of the project are located in the 'ntp' directory. Key modules include unify, tiling of batched representations, multiplexing, and the Kmax heuristic.
+- Tests are included and can be run using a command-line tool `nosetests`
+
+#### Popularity & Community
+- stars: >200 
+- forks: >10 
+- contributors: 1  
+
+#### Creation Date
+- Feb 2, 2018
+
+#### Maintenance
+- Not active
+
+#### License
+- Apache License 2.0
+
+---
+### [PyNeuraLogic](https://github.com/LukasZahradnik/PyNeuraLogic)
+
+#### Description & Software Languages
+- PyNeuraLogic is a Python library that allows users to write Differentiable Logic Programs. 
+- It utilizes its NeuraLogic backend to make the inference process of logic programming differentiable. 
+- This provides an interface akin to deep learning where numeric parameters associated with rules can be learned, similar to learning weights in neural networks.
+- The primary programming language is Python.
+
+#### Features
+- The library allows logic programming in Python, providing a declarative coding paradigm. 
+- It also bridges the gap between logic programming and neural networks, offering the potential to create models with capabilities beyond common Graph Neural Networks (GNNs).
+- Unlike other GNN frameworks, PyNeuraLogic is not limited to GNN models and allows users to design their own deep relational learning models. 
+- PyNeuraLogic claims to provide superior performance on a range of common GNN models and applications.
+
+#### Docs & Tutorials Quality
+- PyNeuraLogic has an assortment of tutorial notebooks to help users get started with various tasks and applications. 
+- It also links to several papers and articles for a more in-depth understanding of the concepts it employs. 
+
+#### Popularity & Community
+- stars: >200 
+- forks: >10  
+- contributors: 3  
+
+#### Creation Date
+- Dec 6, 2020
+
+#### Maintenance
+- Active
+
+#### License
+- MIT
+
+---
+### [TensorLog](https://github.com/TeamCohen/TensorLog)
+
+#### Description & Software Languages
+- TensorLog is a unique software library that combines the characteristics of probabilistic first-order logic with neural networks.
+- In this library, queries are compiled into differentiable functions within a neural network infrastructure such as TensorFlow or Theano. 
+- This integration of probabilistic logical reasoning with deep learning infrastructure allows for the tuning of the parameters of a probabilistic logic through deep learning frameworks. 
+- TensorLog is designed to scale to large problems, handling hundreds of thousands of knowledge-base triples and tens of thousands of examples. 
+- The primary programming language is Python.
+
+#### Features
+- TensorLog offers a unique integration of probabilistic first-order logic and deep learning infrastructure, allowing for the seamless use of high-performance deep learning frameworks for tuning probabilistic logic parameters.
+- TensorLog is capable of scaling to large problems, handling hundreds of thousands of knowledge-base triples and tens of thousands of examples.
+- The library allows queries to be compiled into differentiable functions, supporting integration with neural network infrastructures such as TensorFlow or Theano.
+
+#### Docs & Tutorials Quality
+- TensorLog provides a range of resources for learning more about the library, including papers, information about the TensorLog database, and details on running TensorLog programs and experiments. 
+- The documentation also offers guides for using TensorLog with TensorFlow and running queries interactively from Python. 
+- The 'further reading' resources, and the detailed guides on using TensorLog in various scenarios, suggest that the library is well-documented and beginner-friendly.
+
+#### Popularity & Community
+- stars: >100 
+- forks: >20  
+- contributors: 4 
+
+#### Creation Date
+- Feb 14, 2016
+
+- #### Maintenance
+Not active
+
+#### License
+Apache License 2.0
+
+
+
+---
+---
+### [Logical Neural Network](https://github.com/IBM/LNN)
 A `Neural = Symbolic` framework for sound and complete weighted real-value logic created by IBM Research. 
 
 #### Software
