@@ -359,9 +359,6 @@ Not active
 #### License
 Apache License 2.0
 
-
-
----
 ---
 ### [Logical Neural Network](https://github.com/IBM/LNN)
 A `Neural = Symbolic` framework for sound and complete weighted real-value logic created by IBM Research. 
